@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "chatBot.py"]
+CMD ["python", "openaiBot.py"]
 
 # docker build -t chatbot .
