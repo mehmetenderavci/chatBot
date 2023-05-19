@@ -33,15 +33,6 @@ def create_chat(label):
 
 
 with gr.Blocks() as demo:
-    chat1 = create_chat("Chat1")
-    chat2 = create_chat("Chat2")
-    chat3 = create_chat("Chat3")
-    chat4 = create_chat("Chat4")
-    chat5 = create_chat("Chat5")
-    chat6 = create_chat("Chat6")
-    chat7 = create_chat("Chat7")
-    chat8 = create_chat("Chat8")
-    chat9 = create_chat("Chat9")
-    chat10 = create_chat("Chat10")
+    chat1 = create_chat("API Finder")
 
 demo.launch(server_name="0.0.0.0", server_port=7860)
